@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>E-Commerce Portal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>E-Commerce Portal</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Contact Us</a>
+    <a href="#">About Us</a>
+  </nav>
+</header>
+
+<section class="auth">
+  <h2>User Registration</h2>
+  <form id="registerForm">
+    <input type="text" id="regName" placeholder="Full Name">
+    <input type="email" id="regEmail" placeholder="Email">
+    <input type="password" id="regPass" placeholder="Password">
+    <button type="submit">Register</button>
+  </form>
+
+  <h2>Login</h2>
+  <form id="loginForm">
+    <input type="email" id="loginEmail" placeholder="Email">
+    <input type="password" id="loginPass" placeholder="Password">
+    <button type="submit">Login</button>
+  </form>
+</section>
+
+<section>
+  <h2>Orders List</h2>
+  <ul id="orders">
+    <li>Order #1 – Product A</li>
+    <li>Order #2 – Product B</li>
+  </ul>
+
+  <h2>Wishlist</h2>
+  <ul id="wishlist">
+    <li>Wishlist Item 1</li>
+    <li>Wishlist Item 2</li>
+  </ul>
+
+  <h2>Comments & Reviews</h2>
+  <ul id="comments">
+    <li>Great product!</li>
+    <li>Fast delivery.</li>
+  </ul>
+
+  <h2>Customer Care</h2>
+  <p>Email: support@example.com</p>
+  <p>Phone: +91 9876543210</p>
+
+  <h2>Report an Issue</h2>
+  <textarea placeholder="Describe your issue"></textarea>
+  <button>Submit</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
